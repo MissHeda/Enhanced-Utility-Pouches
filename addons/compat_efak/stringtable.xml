@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="eup">
+    <Package name="compat_efak">
+        <Key ID="STR_eup_compat_efak_Arsenal_Button">
+            <English>Kits and pouches</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_Arsenal_Tab">
+            <English>Kits and pouches in this unit's inventory</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_Arsenal_Contents">
+            <English>Kit and pouch contents</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_Arsenal_HintNoKits">
+            <English>Put a kit or pouch into the uniform, vest or backpack first</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_Arsenal_RowNoKits">
+            <English>This unit carries no kits or pouches</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_Arsenal_DisabledUnit">
+            <English>Kits and pouches can only be packed for your own unit</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_3DEN_Category">
+            <English>Enhanced First Aid Kits &amp; Pouches</English>
+        </Key>
+        <Key ID="STR_eup_compat_efak_3DEN_KitContents_Tooltip">
+            <English>What this unit's kits and pouches hold when the mission starts.\nSet by the kits tab of the ACE Arsenal - edit the loadout there rather than here.\nEmpty: every kit and pouch starts with its default contents.</English>
+        </Key>
+    </Package>
+</Project>

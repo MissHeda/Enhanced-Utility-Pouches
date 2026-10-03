@@ -1,0 +1,43 @@
+name = "Enhanced Utility Pouches"
+prefix = "eup"
+author = "Miss Heda"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "logo.paa",
+    "README.md",
+    # EFAK's kit framework, copied by tools/sync_framework.py
+    "addons/efak_*.pbo",
+    "addons/efak_*.bisign",
+    "keys/efak_*.bikey",
+]
+
+[version]
+git_hash = 0
+
+[hemtt.config]
+preset = "Hemtt"
+
+# hemtt launch - the pouches on their own, on the framework copied by tools/sync_framework.py.
+[hemtt.launch.default]
+workshop = [
+    "450814997",  # CBA_A3
+    "463939057",  # ACE3
+    "1779063631", # Zeus Enhanced
+    "2369477168", # Advanced Developer Tools
+]
+
+# hemtt launch efak - with Enhanced First Aid Kits from its local build ("hemtt build" there first).
+# The workshop list is repeated: "extends" does not carry it over.
+[hemtt.launch.efak]
+workshop = [
+    "450814997",  # CBA_A3
+    "463939057",  # ACE3
+    "1779063631", # Zeus Enhanced
+    "2369477168", # Advanced Developer Tools
+]
+parameters = [
+    "-mod=C:\\Users\\Heda\\GitHub Repos\\Enhanced-First-Aid-Kits\\.hemttout\\build",
+]

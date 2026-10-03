@@ -1,0 +1,14 @@
+name = "Enhanced Utility Pouches";
+author = "Miss Heda";
+logo = "logo.paa";
+logoOver = "logo.paa";
+logoSmall = "logo.paa";
+picture = "logo.paa";
+tooltip = "Enhanced Utility Pouches";
+tooltipOwned = "Enhanced Utility Pouches";
+overview = "Enhanced Utility Pouches by Miss Heda - utility pouch, ammo pouch, ammo bag, engineer bag and CBRN bag. Runs on its own or next to Enhanced First Aid Kits.";
+actionName = "Support Discord";
+action = "https://discord.gg/Jud6gyzFYx";
+hideName = 0;
+hidePicture = 0;
+dlcColor[] = {0.36, 0.34, 0.22, 1};

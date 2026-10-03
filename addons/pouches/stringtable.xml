@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="eup">
+    <Package name="pouches">
+        <Key ID="STR_eup_pouches_Action_Root">
+            <English>Pouches</English>
+        </Key>
+        <Key ID="STR_eup_pouches_Action_RootOther">
+            <English>Pouches</English>
+        </Key>
+
+        <Key ID="STR_eup_pouches_UtilityPouch_Display">
+            <English>Utility Pouch</English>
+        </Key>
+        <Key ID="STR_eup_pouches_UtilityPouch_Short">
+            <English>Utility Pouch</English>
+        </Key>
+        <Key ID="STR_eup_pouches_UtilityPouch_Desc">
+            <English>A small pouch for the odds and ends - chemlights, smokes, cable ties, a map.</English>
+        </Key>
+
+        <Key ID="STR_eup_pouches_AmmoPouch_Display">
+            <English>Ammo Pouch</English>
+        </Key>
+        <Key ID="STR_eup_pouches_AmmoPouch_Short">
+            <English>Ammo Pouch</English>
+        </Key>
+        <Key ID="STR_eup_pouches_AmmoPouch_Desc">
+            <English>Spare magazines and grenades, kept together. Takes magazines only.</English>
+        </Key>
+
+        <Key ID="STR_eup_pouches_AmmoBag_Display">
+            <English>Ammo Bag</English>
+        </Key>
+        <Key ID="STR_eup_pouches_AmmoBag_Short">
+            <English>Ammo Bag</English>
+        </Key>
+        <Key ID="STR_eup_pouches_AmmoBag_Desc">
+            <English>A bag of ammunition for the team - belts, magazines, grenades, rockets. Takes magazines only.</English>
+        </Key>
+
+        <Key ID="STR_eup_pouches_EngineerBag_Display">
+            <English>Engineer Bag</English>
+        </Key>
+        <Key ID="STR_eup_pouches_EngineerBag_Short">
+            <English>Engineer Bag</English>
+        </Key>
+        <Key ID="STR_eup_pouches_EngineerBag_Desc">
+            <English>Tools and explosives in one bag - toolkit, wire cutter, defusal kit, charges and mines.</English>
+        </Key>
+
+        <Key ID="STR_eup_pouches_3DEN_CrateContents_UtilityPouch">
+            <English>Utility Pouch contents</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateContents_AmmoPouch">
+            <English>Ammo Pouch contents</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateContents_AmmoBag">
+            <English>Ammo Bag contents</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateContents_EngineerBag">
+            <English>Engineer Bag contents</English>
+        </Key>
+        <Key ID="STR_eup_pouches_CBRNBag_Display">
+            <English>CBRN Bag</English>
+        </Key>
+        <Key ID="STR_eup_pouches_CBRNBag_Short">
+            <English>CBRN Bag</English>
+        </Key>
+        <Key ID="STR_eup_pouches_CBRNBag_Desc">
+            <English>Protective gear in one bag - CBRN suit, respirator, breathing set, detector watch, filters and decon kit.</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateContents_CBRNBag">
+            <English>CBRN Bag contents</English>
+        </Key>
+
+        <Key ID="STR_eup_pouches_Arsenal_Button">
+            <English>Pouches</English>
+        </Key>
+        <Key ID="STR_eup_pouches_Arsenal_Tab">
+            <English>Pouches in this unit's inventory</English>
+        </Key>
+        <Key ID="STR_eup_pouches_Arsenal_Contents">
+            <English>Pouch contents</English>
+        </Key>
+        <Key ID="STR_eup_pouches_Arsenal_HintNoKits">
+            <English>Put a pouch into the uniform, vest or backpack first</English>
+        </Key>
+        <Key ID="STR_eup_pouches_Arsenal_RowNoKits">
+            <English>This unit carries no pouches</English>
+        </Key>
+        <Key ID="STR_eup_pouches_Arsenal_DisabledUnit">
+            <English>Pouches can only be packed for your own unit</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_Category">
+            <English>Enhanced Utility Pouches</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_KitContents_Tooltip">
+            <English>What this unit's pouches hold when the mission starts.\nSet by the pouches tab of the ACE Arsenal - edit the loadout there rather than here.\nEmpty: every pouch starts with its default contents.</English>
+        </Key>
+    </Package>
+</Project>
