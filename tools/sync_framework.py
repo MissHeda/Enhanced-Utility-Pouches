@@ -4,8 +4,9 @@
 The framework is EFAK's main, core, gui and arsenal addons - everything but its own kits (efak_kits),
 its medical addon and its compats. They are copied as EFAK built them, PBO for PBO, with their
 signatures and EFAK's key: with both mods loaded the game finds the same addons twice and uses one
-of them, which only works while they are the same files. So after every EFAK release, release this
-mod again with that release's framework.
+of them, which only works while they are the same framework. So whenever an EFAK release raises
+EFAK_Framework >> revision (core's config.cpp), release this mod again with that release's framework;
+efak_kits warns in chat when the two differ.
 
 Usage:
     python tools/sync_framework.py           # EFAK's .hemttout/release (signed) - before a release
