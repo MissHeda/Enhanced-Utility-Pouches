@@ -15,6 +15,20 @@
         condition = "objectHasInventoryCargo"; \
     }
 
+// And a name every pouch of that type in it gets (efak_core_fnc_nameCrateKits).
+#define CRATE_POUCH_NAME_ATTRIBUTE(pouch,name) \
+    class efak_core_crateName_##pouch { \
+        displayName = CSTRING(3DEN_CrateName_##name); \
+        tooltip = "$STR_efak_core_3DEN_CrateName_Tooltip"; \
+        property = QUOTE(efak_core_crateName_##pouch); \
+        control = "Edit"; \
+        expression = "if (!is3DEN && {isServer} && {_value isNotEqualTo ''}) then {[_this,'%s',_value] call efak_core_fnc_nameCrateKits}"; \
+        defaultValue = "''"; \
+        typeName = "STRING"; \
+        validate = "none"; \
+        condition = "objectHasInventoryCargo"; \
+    }
+
 class Cfg3DEN {
     class Object {
         class AttributeCategories {
@@ -27,10 +41,15 @@ class Cfg3DEN {
                         tooltip = CSTRING(3DEN_KitContents_Tooltip);
                     };
                     CRATE_POUCH_ATTRIBUTE(eup_UtilityPouch,UtilityPouch);
+                    CRATE_POUCH_NAME_ATTRIBUTE(eup_UtilityPouch,UtilityPouch);
                     CRATE_POUCH_ATTRIBUTE(eup_AmmoPouch,AmmoPouch);
+                    CRATE_POUCH_NAME_ATTRIBUTE(eup_AmmoPouch,AmmoPouch);
                     CRATE_POUCH_ATTRIBUTE(eup_AmmoBag,AmmoBag);
+                    CRATE_POUCH_NAME_ATTRIBUTE(eup_AmmoBag,AmmoBag);
                     CRATE_POUCH_ATTRIBUTE(eup_EngineerBag,EngineerBag);
+                    CRATE_POUCH_NAME_ATTRIBUTE(eup_EngineerBag,EngineerBag);
                     CRATE_POUCH_ATTRIBUTE(eup_CBRNBag,CBRNBag);
+                    CRATE_POUCH_NAME_ATTRIBUTE(eup_CBRNBag,CBRNBag);
                 };
             };
         };

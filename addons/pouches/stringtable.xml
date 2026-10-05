@@ -48,6 +48,21 @@
             <English>Tools and explosives in one bag - toolkit, wire cutter, defusal kit, charges and mines.</English>
         </Key>
 
+        <Key ID="STR_eup_pouches_3DEN_CrateName_UtilityPouch">
+            <English>Utility Pouch name</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateName_AmmoPouch">
+            <English>Ammo Pouch name</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateName_AmmoBag">
+            <English>Ammo Bag name</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateName_EngineerBag">
+            <English>Engineer Bag name</English>
+        </Key>
+        <Key ID="STR_eup_pouches_3DEN_CrateName_CBRNBag">
+            <English>CBRN Bag name</English>
+        </Key>
         <Key ID="STR_eup_pouches_3DEN_CrateContents_UtilityPouch">
             <English>Utility Pouch contents</English>
         </Key>

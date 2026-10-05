@@ -23,6 +23,7 @@ class CfgPatches {
 // EFAK's own value (CBA_SETTINGS_EFAK in its main addon).
 class EFAK_Framework {
     settingsCategory = "Enhanced First Aid Kits";
+    keybindCategory = "Enhanced First Aid Kits & Utility Pouches";
 };
 
 // The icon stays the pouches' (eup_pouches).
