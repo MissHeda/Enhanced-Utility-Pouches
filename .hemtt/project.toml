@@ -29,14 +29,16 @@ workshop = [
     "2369477168", # Advanced Developer Tools
 ]
 
-# hemtt launch efak - with Enhanced First Aid Kits from its local build ("hemtt build" there first).
-# The workshop list is repeated: "extends" does not carry it over.
+# hemtt launch efak - with Enhanced First Aid Kits from its local build ("hemtt build" there first),
+# and ACM Extended, which brings ACM along. The workshop list is repeated: "extends" does not carry
+# it over.
 [hemtt.launch.efak]
 workshop = [
     "450814997",  # CBA_A3
     "463939057",  # ACE3
     "1779063631", # Zeus Enhanced
     "2369477168", # Advanced Developer Tools
+    "3749759934", # ACM Extended (ACME)
 ]
 parameters = [
     "-mod=C:\\Users\\Heda\\GitHub Repos\\Enhanced-First-Aid-Kits\\.hemttout\\build",
