@@ -28,6 +28,7 @@ Everything Enhanced First Aid Kits does for its kits, the pouches do too:
 
 - **Pouch window** - your gear on the left, the pouch on the right; double click, drag, **Ctrl** or **Shift** click.
 - **Quick access** - see what's inside and take a stack out without opening the pouch.
+- **Use without unpacking** - earplugs, cable ties, spray paint or a wire cutter in your utility pouch or engineer bag work straight from the ACE menu, items of other mods too.
 - **Own menu** - the pouches have their own "Pouches" entry in the interaction menu, apart from the first aid kits.
 - **ACE Arsenal** - fill every pouch on its own; loadouts keep what's inside.
 - **Eden crates** - set what the pouches in a crate or vehicle hold, in its Eden attributes.
