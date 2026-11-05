@@ -1,7 +1,8 @@
 // The pouches, registered as kits of Enhanced First Aid Kits (see its addons/core/CfgEFAKKits.hpp for
 // every property). Not medical: they take anything (itemFilter 0) or only one kind of item
 // (itemTypes), ACE treatments leave them alone (useInTreatments 0), and they have a menu and a
-// settings category of their own.
+// settings category of their own. Utility pouch and engineer bag let ACE actions use what is inside
+// without unpacking it first (directUse): earplugs, cable ties, spray paint, a wire cutter.
 
 #define POUCH_COMMON \
     instances = EUP_INSTANCES_PER_POUCH; \
@@ -20,6 +21,7 @@ class EFAK_Kits {
         capacity = 30;
         defaultContents = "";
         itemFilter = 0;
+        directUse = 1;
         POUCH_COMMON;
     };
 
@@ -62,6 +64,7 @@ class EFAK_Kits {
         defaultContents = "ToolKit 1 ACE_wirecutter 1 ACE_DefusalKit 1 ACE_Clacker 1";
         itemFilter = 0;
         itemTypes[] = {"item", "magazine/secondary"};
+        directUse = 1;
         bag = 1;
         POUCH_COMMON;
     };
